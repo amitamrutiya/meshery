@@ -1280,14 +1280,14 @@ function MesheryFilters({
                     meshModels={meshModels}
                     patternFetcher={() => getFilters()}
                   />
-              )}
-            <_PromptComponent ref={modalRef} />
-          </>
-        ) : (
-          <DefaultError />
-        )}
-      </NoSsr>
-    </UsesSistent>
+                )}
+              <_PromptComponent ref={modalRef} />
+            </>
+          ) : (
+            <DefaultError />
+          )}
+        </NoSsr>
+      </UsesSistent>
     </>
   );
 }

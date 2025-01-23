@@ -1634,13 +1634,13 @@ function MesheryPatterns({
                 handleImportDesign={handleImportDesign}
               />
             )}
-          <_PromptComponent ref={modalRef} />
-        </>
-      ) : (
-        <DefaultError />
-      )}
-    </NoSsr>
- </UsesSistent>
+            <_PromptComponent ref={modalRef} />
+          </>
+        ) : (
+          <DefaultError />
+        )}
+      </NoSsr>
+    </UsesSistent>
   );
 }
 
